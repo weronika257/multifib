@@ -61,7 +61,7 @@ jobs:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           application_name: wsmultifib
-          environment_name: wsMultifib-env
+          environment_name: Wsmultifib-env
           version_label: Multifib
           region: us-east-1
           deployment_package: deploy.zip
